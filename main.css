@@ -1,0 +1,39 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #F0EADA;
+}
+#mainApp {
+    width: 80%;
+    background: #2E5266;
+    height: 100vh;
+    padding: 20px;
+}
+
+nav-component {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+main-component {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px){
+    #mainApp {
+        width: 100%;
+        height: 100vh;
+        padding: 20px;
+    }
+    nav-component {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
